@@ -23,7 +23,7 @@ db.sequelize.sync({ force: true }).then(() => {
 });
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Guardling7 application." });
+  res.json({ message: "Test-api." });
 });
 
 require("./app/routes/tutorial.routes")(app);
