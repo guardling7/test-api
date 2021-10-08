@@ -23,7 +23,7 @@ db.sequelize.sync();
 // });
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Test-api Heroku" });
+  res.json({ message: "Test-api" });
 });
 
 require("./app/routes/tutorial.routes")(app);
